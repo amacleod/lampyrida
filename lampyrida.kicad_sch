@@ -1777,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 91.44) (xy 44.45 91.44)
+			(xy 24.13 91.44) (xy 36.83 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 91.44) (xy 57.15 91.44)
+			(xy 44.45 91.44) (xy 57.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2394,7 @@
 	)
 	(text "~500 Ohm"
 		(exclude_from_sim no)
-		(at 48.26 94.488 0)
+		(at 40.64 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2432,8 +2432,8 @@
 		)
 		(uuid "f4b9b56f-dd08-401b-af58-8bae61335ba5")
 	)
-	(label "RGB5V"
-		(at 52.07 91.44 0)
+	(label "RGB_Serial"
+		(at 44.45 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3910,7 +3910,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 91.44 90)
+		(at 40.64 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3919,7 +3919,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfb52b82-9869-4bb1-8a21-95c29643c3ed")
 		(property "Reference" "R1"
-			(at 48.26 85.09 90)
+			(at 40.64 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3927,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 48.26 87.63 90)
+			(at 40.64 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3935,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 48.26 93.218 90)
+			(at 40.64 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 91.44 0)
+			(at 40.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3953,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 91.44 0)
+			(at 40.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
