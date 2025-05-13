@@ -516,268 +516,6 @@
 				)
 			)
 		)
-		(symbol "Logic_LevelTranslator:TXB0101DBV"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TXB0101DBV"
-				(at 3.81 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0101.pdf"
-				(at 0 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "bidirectional voltage level translator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23?6*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TXB0101DBV_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -2.54 -1.016) (xy -2.54 0) (xy -4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.794 1.016) (xy 2.794 0) (xy 4.064 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 1.016 -1.778) (xy 1.016 -2.032) (xy -0.762 -1.016) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TXB0101DBV_1_1"
-				(pin power_in line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "V_{CCA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "V_{CCB}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push_45deg"
 			(pin_numbers hide)
 			(pin_names
@@ -1832,12 +1570,6 @@
 		(uuid "9d5b2a49-ef75-46c8-8e47-d1b898e97c28")
 	)
 	(junction
-		(at 36.83 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3394735-aee5-4368-938f-205e0b9ae79d")
-	)
-	(junction
 		(at 64.77 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1878,12 +1610,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e04bb83d-18f8-4148-b52f-1d47e9d5b793")
-	)
-	(junction
-		(at 55.88 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9017a5b-912a-4c7b-acd0-a5e359baaca3")
 	)
 	(no_connect
 		(at 44.45 55.88)
@@ -1961,6 +1687,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 78.74) (xy 64.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a20822-62b4-49d0-8d8a-d0aea8237d3e")
+	)
+	(wire
+		(pts
 			(xy 55.88 83.82) (xy 64.77 83.82)
 		)
 		(stroke
@@ -2011,16 +1747,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 101.6) (xy 34.29 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285586fc-ebf1-473a-975b-63461167f468")
-	)
-	(wire
-		(pts
 			(xy 55.88 96.52) (xy 55.88 83.82)
 		)
 		(stroke
@@ -2048,6 +1774,16 @@
 			(type default)
 		)
 		(uuid "3976f2f9-b326-451f-8737-983f5d5466d0")
+	)
+	(wire
+		(pts
+			(xy 24.13 91.44) (xy 44.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2a72b1-eff3-4824-abd0-3c7d74463f19")
 	)
 	(wire
 		(pts
@@ -2381,16 +2117,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 78.74) (xy 31.75 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0953fb-0e1f-4131-9bf5-eb9c93ae4e4e")
-	)
-	(wire
-		(pts
 			(xy 64.77 78.74) (xy 64.77 83.82)
 		)
 		(stroke
@@ -2451,26 +2177,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 104.14) (xy 55.88 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0c145b5-8287-4c5d-ab52-d275c8f86dd2")
-	)
-	(wire
-		(pts
-			(xy 24.13 78.74) (xy 24.13 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c460ac2e-56f0-4e71-a615-a15df555b651")
-	)
-	(wire
-		(pts
 			(xy 110.49 91.44) (xy 114.3 91.44)
 		)
 		(stroke
@@ -2488,16 +2194,6 @@
 			(type default)
 		)
 		(uuid "cb6a084c-ae8b-4939-869c-cbd832a776b3")
-	)
-	(wire
-		(pts
-			(xy 36.83 78.74) (xy 64.77 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce94a1af-f6cd-4488-a562-deb0c426fb0f")
 	)
 	(wire
 		(pts
@@ -2608,16 +2304,6 @@
 			(type default)
 		)
 		(uuid "f1473d9c-32eb-4e7b-b017-ee629fd3f462")
-	)
-	(wire
-		(pts
-			(xy 36.83 78.74) (xy 36.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4dee7b1-0371-41ca-8a27-8007d20bc8a3")
 	)
 	(wire
 		(pts
@@ -3110,72 +2796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 24.13 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c5816d5-3cb7-4fd3-bd52-d366c4884541")
-		(property "Reference" "#PWR06"
-			(at 24.13 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 24.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fb4edbc-dd08-4e8b-a58e-be253d59ace9")
-		)
-		(instances
-			(project "lampyrida"
-				(path "/fea916ce-80ad-48c9-975a-f03a97d5e978"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SK6812")
 		(at 83.82 91.44 0)
 		(unit 1)
@@ -3246,85 +2866,6 @@
 			(project "lampyrida"
 				(path "/fea916ce-80ad-48c9-975a-f03a97d5e978"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0101DBV")
-		(at 34.29 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46771b7c-c827-47b8-9343-ec32b28e1e6b")
-		(property "Reference" "U2"
-			(at 54.61 85.1214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TXB0101DBV"
-			(at 25.908 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 34.29 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0101.pdf"
-			(at 34.29 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SOT-23-6"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "ba67fdf2-ad96-4b6b-8038-a39dccf1f951")
-		)
-		(pin "3"
-			(uuid "94fea2e2-da86-4ec6-ac1e-0f35f6cf571f")
-		)
-		(pin "5"
-			(uuid "dd7024f4-cc75-4da0-85e5-04131fb70acc")
-		)
-		(pin "4"
-			(uuid "fb3395c8-93eb-47e6-a770-8f7b3ac51dcd")
-		)
-		(pin "1"
-			(uuid "1f424c55-46e0-4310-b0f0-24d24ee446ee")
-		)
-		(pin "2"
-			(uuid "6838f945-d750-4d0a-a370-46a71ba855f9")
-		)
-		(instances
-			(project ""
-				(path "/fea916ce-80ad-48c9-975a-f03a97d5e978"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3597,72 +3138,6 @@
 			(project "lampyrida"
 				(path "/fea916ce-80ad-48c9-975a-f03a97d5e978"
 					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 36.83 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83c776af-b8e5-448a-a603-606ea7ee7d83")
-		(property "Reference" "#PWR010"
-			(at 36.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 36.83 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f9e92b6-f401-442f-b3cf-21fa1d0a89bf")
-		)
-		(instances
-			(project "lampyrida"
-				(path "/fea916ce-80ad-48c9-975a-f03a97d5e978"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
