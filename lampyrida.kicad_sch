@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "fea916ce-80ad-48c9-975a-f03a97d5e978")
 	(paper "A4")
+	(title_block
+		(title "Lampyrida")
+		(date "2025-05-18")
+		(rev "0.0.3")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
